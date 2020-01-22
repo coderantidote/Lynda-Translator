@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Lynda Translator</title>
+    <style>
+        body {
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container" style="padding-top: 15px;">
+        <div class="card text-white bg-warning mb-3">
+            <div class="card-header text-center">Lynda Translate</div>
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="slt_translate">Select Translator </label>
+                                <select class="form-control" id="slt_translate">
+                                  <option value="1">Google</option>
+                                  <option value="2">Yandex</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <!--  col end -->
+
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="btn_translate">Start Translate</label>
+                                <button class="btn btn-success" id="btn_translate">Translate</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-footer ">
+                <p class="text-info"> Created By <a href="https://antidote.wtf" target="_blank" rel="noopener noreferrer">Antidote</a> </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
